@@ -1,0 +1,17 @@
+{
+  "name": "expo-wifi-direct",
+  "version": "1.0.0",
+  "description": "Expo native module for Android Wi-Fi Direct (P2P) and TCP sockets",
+  "main": "index.ts",
+  "types": "index.ts",
+  "license": "MIT",
+  "scripts": {},
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "expo-modules-core": "*"
+  }
+}

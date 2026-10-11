@@ -1,0 +1,38 @@
+{
+  "name": "wifi-direct-poc",
+  "version": "1.0.0",
+  "description": "Android Wi-Fi Direct (P2P) + TCP Socket POC for Expo & React Native",
+  "main": "index.ts",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "expo",
+    "wifi-direct",
+    "wifip2p",
+    "peer-to-peer",
+    "p2p",
+    "tcp-socket",
+    "offline-first"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "android:gradle-stop": "cd android && gradlew.bat --stop",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "expo": "~54.0.33",
+    "expo-dev-client": "~6.0.20",
+    "expo-status-bar": "~3.0.9",
+    "expo-wifi-direct": "./modules/expo-wifi-direct",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}

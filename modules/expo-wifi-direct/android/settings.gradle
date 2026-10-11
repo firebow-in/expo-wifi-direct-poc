@@ -1,0 +1,6 @@
+// Do not use this folder as Gradle project root (avoids Java 24 + Gradle 8.9 errors).
+// Build from repo root only: npx expo run:android  or  Run Task → "Run Android Build"
+rootProject.name = 'expo-wifi-direct'
+throw new GradleException(
+  "Do not run Gradle from this folder. Build from the project root: npx expo run:android or use the 'Run Android Build' task. See docs/FIX-JAVA-GRADLE.md to fix Java 24 / Gradle 8.9 errors."
+)
